@@ -3,10 +3,13 @@ plugins:
   - jekyll-remote-theme
 
 title: Shrawan Kumbhar
+# This hides the "View the Project on GitHub" link
+show_downloads: false
+
 description: >
-  <img src="https://github.com/portrait.jpg" width="150" style="border-radius: 50%;"><br>
+  <img src="https://github.com/portrait.jpg" width="150" style="border-radius: 50%; border: 2px solid #eee;"><br>
   Electronics and Telecommunication Engineering student at VIIT, Pune.
-  <div style="display: flex; gap: 15px; align-items: center; margin-top: 10px;">
+  <div style="display: flex; gap: 15px; align-items: center; margin-top: 12px;">
     <a href="https://github.com/shrw-11" target="_blank">
       <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30" alt="GitHub">
     </a>
@@ -14,7 +17,7 @@ description: >
       <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" alt="LinkedIn">
     </a>
     <a href="https://scholar.google.com/citations?user=4b2j4LwAAAAJ&hl=en" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/2991/2991155.png" width="30" alt="Google Scholar">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="30" alt="Google Scholar">
     </a>
   </div>
 
