@@ -1,6 +1,6 @@
 # Shrawan Kumbhar
 
-[cite_start]Electronics and Telecommunication Engineering student at Vishwakarma Institute of Information Technology (VIIT), Pune. [cite: 1, 5]
+Electronics and Telecommunication Engineering student at Vishwakarma Institute of Information Technology (VIIT), Pune.
 
 ## 👤 Contact Information
 
