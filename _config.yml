@@ -5,19 +5,26 @@ plugins:
 title: Shrawan Kumbhar[cite: 1, 2]
 # This adds your profile picture and a short bio to the sidebar
 description: |
-  <img src="https://github.com/shrw-11.png" width="150" style="border-radius: 50%;"><br>
+  <img src="https://github.com/portrait.png" width="150" style="border-radius: 50%;"><br>
   Electronics and Telecommunication Engineering student at VIIT, Pune.
 
-# Social Links
-google_scholar: https://scholar.google.com/citations?user=YOUR_ID
+  <!-- Social Media Logos Redirects -->
+  <div style="display: flex; gap: 15px; align-items: center;">
+    <a href="https://github.com/shrw-11" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="30" alt="GitHub">
+    </a>
+    <a href="https://www.linkedin.com/in/shrawankumbhar/" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="30" alt="LinkedIn">
+    </a>
+    <a href="https://scholar.google.com/citations?user=4b2j4LwAAAAJ&hl=en" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/2991/2991155.png" width="30" alt="Google Scholar">
+    </a>
+  </div>
+
+  # Keep these for theme metadata, though the description above handles the visual icons
+google_scholar: https://scholar.google.com/citations?user=4b2j4LwAAAAJ&hl=en
 github_username: shrw-11
 linkedin_username: shrawankumbhar
+  
 
-# If your theme version supports a specific link list:
-links:
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/shrawankumbhar
-  - title: GitHub
-    url: https://github.com/shrw-11
-  - title: Google Scholar
-    url: https://scholar.google.com/citations?user=YOUR_ID
+
