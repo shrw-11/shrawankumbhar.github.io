@@ -1,3 +1,8 @@
+<style>
+  header ul { display: none !important; }
+  header p.view { display: none !important; }
+</style>
+
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
@@ -18,7 +23,7 @@ description: >
         <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="25">
       </a>
       <a href="https://scholar.google.com/citations?user=YOUR_ID" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2991/2991155.png" width="25">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Google_Scholar_logo.svg" width="25">
       </a>
     </div>
   </div>
