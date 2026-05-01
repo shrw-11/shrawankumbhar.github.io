@@ -1,7 +1,3 @@
-<style>
-  header ul { display: none !important; }
-  header p.view { display: none !important; }
-</style>
 
 I am a dedicated **Electronics and Telecommunication Engineering** undergraduate at Vishwakarma Institute of Information Technology, Pune. My primary interests lie in the fields of **Autonomous Mobile Robots (AMR), Unmanned Aerial Vehicles (UAVs), and Human-Computer Interaction**. Beyond the classroom, I have developed technical proficiency in programming languages like Python and C++, as well as hardware tools such as ROS2 and KiCad. My leadership experience as an Electronics Member of the **VIIT Robotics Club(VRC)** allowed me to compete nationally in the DD Robocon Competition, where our team achieved a ranking within the top **AIR 15**.
 
