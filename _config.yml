@@ -2,7 +2,7 @@ remote_theme: pages-themes/minimal@v0.2.0
 plugins:
   - jekyll-remote-theme
 
-title: Shrawan Kumbhar
+title: Shrawan Kumbhar 
 show_downloads: false
 
 description: >
