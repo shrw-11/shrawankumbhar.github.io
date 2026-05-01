@@ -6,7 +6,7 @@ title: Shrawan Kumbhar
 show_downloads: false
 
 description: >
-  <div style="text-align: center; clear: both;">
+  <div style="text-align: center;">
     <img src="https://github.com/shrw-11.png" width="150" style="border-radius: 50%; display: block; margin: 0 auto;">
     <p style="margin-top: 10px;">Undergrad ENTC @ VIIT, Pune</p>
     <div style="display: flex; justify-content: center; gap: 15px; margin-top: 10px; margin-bottom: 30px;">
@@ -21,34 +21,39 @@ description: >
       </a>
     </div>
 
-    <!-- Certificate Slideshow Fixed Container -->
-    <div style="position: relative; width: 100%; height: 300px; margin-bottom: 80px; display: block; overflow: visible;">
-      <style>
-        @keyframes slideFade {
-          0%, 45% { opacity: 1; z-index: 2; }
-          50%, 95% { opacity: 0; z-index: 1; }
-          100% { opacity: 1; z-index: 2; }
-        }
-        .cert-img {
-          position: absolute;
-          top: 0;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 90%;
-          max-width: 400px;
-          height: auto;
-          border-radius: 8px;
-          border: 1px solid #ddd;
-          box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-          background: white;
-        }
-        #robocon { animation: slideFade 6s infinite; }
-        #nptel { animation: slideFade 6s infinite reverse; }
-      </style>
+    <!-- Layout Container (Fixed Overlap) -->
+    <div style="position: relative; width: 100%; height: 320px; margin: 0 auto 100px auto;">
       
-      <!-- Ensure these filenames match your GitHub files exactly -->
-      <img id="robocon" class="cert-img" src="robocon.png" alt="Robocon Certificate">
-      <img id="nptel" class="cert-img" src="nptel_mechatronics.png" alt="NPTEL Certificate">
+      <!-- Certificate Slideshow -->
+      <div style="position: absolute; width: 100%; max-width: 450px; height: 100%; left: 50%; transform: translateX(-50%); border-radius: 12px; border: 1px solid #ddd; background: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.05); overflow: hidden; z-index: 2;">
+        <style>
+          @keyframes fadeTransition {
+            0% { opacity: 1; z-index: 1; }
+            45% { opacity: 1; }
+            50% { opacity: 0; z-index: 0; }
+            95% { opacity: 0; }
+            100% { opacity: 1; z-index: 1; }
+          }
+          .cert-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 15px;
+            box-sizing: border-box;
+            background-color: white;
+          }
+          /* Standard filenames to ensure they match repo files */
+          .robocon-cert { animation: fadeTransition 6s infinite; }
+          .nptel-cert { animation: fadeTransition 6s infinite reverse; }
+        </style>
+        
+        <!-- Files (Must be present in the root of your repo) -->
+        <img class="cert-slide robocon-cert" src="robocon_certificate.jpg" alt="DD-Robocon 2025 Certificate">
+        <img class="cert-slide nptel-cert" src="nptel_mechatronics.jpg" alt="NPTEL Mechatronics Certificate">
+      </div>
     </div>
   </div>
 
