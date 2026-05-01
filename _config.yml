@@ -30,7 +30,7 @@ description: >
           50% { opacity: 0; }
           95% { opacity: 0; }
           100% { opacity: 1; }
-        }
+        } 
         .cert-slide {
           position: absolute;
           top: 0;
